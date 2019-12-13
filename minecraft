@@ -37,13 +37,13 @@
 # http://www.minecraftwiki.net/wiki/M3tal_Warrior_Server_Startup_Script
 
 # General settings
-MAINTAIN_SCRIPT_PATH='/root/server/minecraft'
+MAINTAIN_SCRIPT_PATH='/usr/local/minecraft'
 MAINTAIN_SCRIPT_NAME='server_control'
-USERNAME='root'
+USERNAME='minecraft'
 SERVERTYPE='Vanilla'
 SERVICE='minecraft_server.jar'
-SERVERPATH='/root/server/minecraft/'
-BACKUPPATH='/root/server/minecraft/backups'
+SERVERPATH='/opt/minecraft/server'
+BACKUPPATH='/opt/minecraft/backups'
 
 # Advanced settings
 CPU_COUNT=2
